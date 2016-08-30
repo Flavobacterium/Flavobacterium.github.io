@@ -1,0 +1,126 @@
+body{
+    background-color: #00aff0;
+    height: 100%;
+    width: 100%;
+    font: 300 1.5em/1.38 'Open Sans';
+    color: rgb(255, 255, 255);
+    position: static;
+}
+.close{
+    background: url('../images/close.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    position: absolute;
+    height: 5%;
+    width: 0%;
+    top: 5%;
+    transform: 0.5s;
+    z-index: 10;
+}
+.close:hover{
+    cursor: pointer;
+}
+#pho{
+    height: 20%;
+    width: 20%;
+    position: absolute;
+}
+.photo1{
+    background: url('../images/infographic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 10%;
+    left: 5%;
+    transition: 1s;
+}
+.photo1:hover{
+    cursor: pointer;
+}
+.photo2{
+    background: url('../images/Wiki2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 10%;
+    left: 40%;
+    transition: 1s;
+}
+.photo2:hover{
+    cursor: pointer;
+}
+.photo3{
+    background: url('../images/nylonmicor.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 10%;
+    left: 75%;
+    transition: 1s;
+}
+.photo3:hover{
+    cursor: pointer;
+}
+.photo4{
+    background: url('../images/pic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 50%;
+    left: 23%;
+    transition: 1s;
+}
+.photo5{
+    background: url('../images/nylonasediagram.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 50%;
+    left: 57%;
+    transition: 1s;
+}
+.bot{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -3000px;
+    left: 0%;
+    background-color: white;
+    text-align: center;
+}
+.sourcefind{
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    text-align: center;
+    position: absolute;
+    bottom: 3%;
+    color: white;
+}
+.sourcefind:hover{
+    cursor: pointer;
+}
+.sources{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+p{
+    color: black;
+}
