@@ -5,7 +5,7 @@ body{
   background-size: cover;
   background-position: left top;
   background-attachment: fixed;
-  font: 300 1.5em/1.38 'Open Sans';
+  font: 300 1.5em/1.38 Sans-Serif;
   color: rgb(255, 255, 255);
   position: static;
 }   
@@ -248,4 +248,24 @@ co-frame1:hover{
     color: rgb(255, 255, 255);
     position: static;
     }
+}
+@media screen and (min-width: 1920px) and (min-height : 1080px){
+    .bottom{
+        position: absolute;
+        bottom: -4000px;
+    }.fla{
+      left: 38%;
+    }
+    
+}
+@media screen and (min-width: 1340px) and (min-height : 800px){
+  .bottom{
+    position: absolute;
+    bottom: -4000px;
+  } 
+}
+@media screen and (min-width: 1920px) and (min-height: 1200px){
+  .fla{
+    left: 38%;
+  }
 }
